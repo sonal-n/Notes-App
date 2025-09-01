@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+}
+
+.side-bar {
+    width: 250px;
+    height: 100vh;
+    overflow-y: hidden;
+    padding-left: 2.5rem;
+    box-shadow: 2px 0 4px #313b45;
+    background: #161a1f;
+}
+
+.side-bar-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+.nav-list button {
+    background: none;
+    border: none;
+    color: #b7c0c7;
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-list button:hover {
+    color: #dae5ef;
+}
+
+.nav-list span {
+    align-items: center;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.center-pane {
+    padding: 2rem;
+}
+
+.search-bar {
+    background: #24272e;
+    border: none;
+    border-radius: 9px;
+    height: 2.5rem;
+    width: 400px;
+    padding-left: 3.5rem; 
+    font-size: 1.1rem;
+    color: #a2a9b3;
+    font-weight: 500;
+}
+
+.search-icon-inside {
+    margin-left: -23.5rem;
+    color: #a2a9b3;
+}
+
+.section-title {
+    margin-top: 2.7rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.note {
+    background: #1f232a;
+    border: none;
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #a2a9b3;
+    transition: background 0.3s ease;
+    margin-right: 2.5rem;
+}
+
+.note:hover {
+    background: #2e343e;
+}
+
+.note-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.2rem;
+}
+
+.note-body {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    position: absolute;
+    top: calc(1.2rem + 2rem); 
+    left: 1.2rem;
+}
+.note {
+    position: relative;
+    padding: 0; 
+}
