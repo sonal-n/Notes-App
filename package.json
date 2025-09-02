@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "cleanup": "knip --ignore 'convex/_generated/**' --ignore '**/app/**/page.tsx' --ignore '**/app/**/layout.tsx' --ignore '**/app/**/route.ts' --ignore '**/middleware.ts' && next lint --fix"
   },
   "dependencies": {
     "@tiptap/extension-code-block-lowlight": "^3.3.0",

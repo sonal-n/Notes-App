@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Notes",
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-  }
+  },
 };
 
 export default function RootLayout({
@@ -21,12 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={inter.className}
-      >
-        <Providers>
-          {children}
-        </Providers>
+      <body className={inter.className}>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
