@@ -9,7 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tiptap/extension-code-block-lowlight": "^3.3.0",
+    "@tiptap/extension-placeholder": "^3.3.0",
+    "@tiptap/extension-underline": "^3.3.0",
+    "@tiptap/pm": "^3.3.0",
+    "@tiptap/react": "^3.3.0",
+    "@tiptap/starter-kit": "^3.3.0",
     "convex": "^1.26.2",
+    "lowlight": "^3.3.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",

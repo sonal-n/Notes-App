@@ -43,7 +43,7 @@ export const updateNote = mutation({
     },
 });
 
-const setPinned = mutation({
+export const setPinned = mutation({
     args: { id: v.id("notes"), pinned: v.boolean() },
     handler: async (ctx, args) => {
         await ctx.db.patch(args.id, {pinned: args.pinned, updatedAt: Date.now()});
